@@ -94,7 +94,7 @@ def run_alexa():
                    cm = take_command().lower() 
                    webbrowser.open(f"{cm}") 
                elif "send message" in command:
-                   pywhatkit.sendwhatmsg("+922192038817","happy birthday",2,50)  
+                   pywhatkit.sendwhatmsg("+000000000000","happy birthday",2,50)  
 
                elif"no thanks" in command:
                    talk("thanks for using me. have a good day.") 
